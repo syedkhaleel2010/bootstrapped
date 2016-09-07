@@ -17,13 +17,22 @@
 
     <style type="text/css">
         .navbar {
-          
             min-height: 50px;
-             margin-bottom: 0px; 
+            margin-bottom: 0px;
             border: 1px solid transparent;
         }
+
         .dropdown-menu {
-        z-index:10000000;
+            z-index: 10000000;
+        }
+
+        .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+            color: #000000 !important;
+            background-color: #e7e7e7;
+        }
+
+        .navbar-default .navbar-nav > li > a {
+            color: #bbb;
         }
     </style>
 </head>
