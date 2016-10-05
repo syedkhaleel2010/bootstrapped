@@ -89,6 +89,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\component.css" />
     <Content Include="Content\default.css" />
+    <Content Include="Dropdowns\Dropdowns.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Glaphycons\glyphicon.aspx" />
     <Content Include="Global.asax" />
@@ -246,6 +247,13 @@
       <DependentUpon>NavTab.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Dropdowns\Dropdowns.aspx.cs">
+      <DependentUpon>Dropdowns.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dropdowns\Dropdowns.aspx.designer.cs">
+      <DependentUpon>Dropdowns.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Glaphycons\glyphicon.aspx.cs">
       <DependentUpon>glyphicon.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

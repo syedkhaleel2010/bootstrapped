@@ -17,12 +17,27 @@
 <body>
     <form id="form1" runat="server">
         <div class="container-fluid">
+            glyphicon Search
             <div class="row">
+
                 <div class="col-md-4">
-                    <input type="text" id="txtSearch" value="" class="form-control" /></div>
+                    <input type="text" id="txtSearch" value="" class="form-control" />
+                </div>
                 <div class="col-md-1">
                     <button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
                 </div>
+            </div>
+            Warning 
+            <div class="row">
+                
+                <div class="col-md-4">
+                    <div class="alert alert-danger" role="alert">
+                        <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                        <span class="sr-only">Error:</span>
+                        Enter a valid email address
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
             </div>
         </div>
     </form>
