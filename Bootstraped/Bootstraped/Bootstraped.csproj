@@ -90,6 +90,7 @@
     <Content Include="Content\component.css" />
     <Content Include="Content\default.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Glaphycons\glyphicon.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -245,6 +246,13 @@
       <DependentUpon>NavTab.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Glaphycons\glyphicon.aspx.cs">
+      <DependentUpon>glyphicon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Glaphycons\glyphicon.aspx.designer.cs">
+      <DependentUpon>glyphicon.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
