@@ -16,7 +16,7 @@
         <div class="container-fluid">
             <h1>Working with Grid Rows/Columns</h1>
             <p>Resize your browser window to see the magic...</p>
-            <div class="row">
+            <div class="row-fluid">
                 <div class="col-md-4 " style="background-color: pink;">
                     Of all the animals in the world, my favorite is the sphynx.
                 </div>
