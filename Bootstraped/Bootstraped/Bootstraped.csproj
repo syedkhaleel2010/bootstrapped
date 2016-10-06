@@ -222,6 +222,7 @@
     <Content Include="images\vista\year-decade%281%29.gif" />
     <Content Include="images\vista\year-decade.gif" />
     <Content Include="images\wrong.jpg" />
+    <Content Include="ProgressBar.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\cbpAnimatedHeader.js" />
@@ -270,6 +271,13 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProgressBar.aspx.cs">
+      <DependentUpon>ProgressBar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProgressBar.aspx.designer.cs">
+      <DependentUpon>ProgressBar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
